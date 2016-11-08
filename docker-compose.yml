@@ -1,0 +1,10 @@
+scraper:
+  build: .
+#  user: "1984"
+  user: "1000:"
+  volumes:
+  - .:/home/scraper
+  ports:
+  - 5911:5901
+  - 6911:6901
+#  command: "'scrapy crawl myscraper -t jsonlines -o persons.json'"

@@ -7,4 +7,4 @@ scraper:
   ports:
   - 5911:5901
   - 6911:6901
-#  command: "'scrapy crawl myscraper -t jsonlines -o persons.json'"
+  command: "'scrapy crawl myscraper -t jsonlines -o persons.json'"
